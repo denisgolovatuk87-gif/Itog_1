@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #ca97de;
+    background: linear-gradient(90deg,rgba(202, 151, 222, 1) 0%, rgba(173, 130, 217, 1) 38%, rgba(145, 133, 199, 1) 100%);
+}
+
+header {
+    height:80px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    background-color: rgb(143, 53, 228);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: Calibri;
+    font-size: 14px;
+    color: rgb(3, 3, 114);
+    text-decoration: none;
+    font-size: 12px;
+    box-shadow:  1px 1px 1px 1px rgb(97, 92, 92);
+}
+
+.menu a:hover {
+    background-color: rgb(68, 8, 124);
+    color: white;
+}
+
+.section1 {
+    height: 430px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+    width: 60%;
+    display: block;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.btn a {
+    background-color: rgb(143, 53, 228);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: Calibri;
+    font-size: 14px;
+    color: rgb(3, 3, 114);
+    text-decoration: none;
+    font-size: 12px;
+    box-shadow:  1px 1px 1px 1px rgb(97, 92, 92);
+}
+
+.btn a:hover {
+    background-color: rgb(68, 8, 124);
+    color: white;
+}
+
+main {
+    height: 700px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.card-block {
+    height: 520px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    background-color: rgb(143, 53, 228);
+    width: 25%;
+    height: 480px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow:  1px 1px 2px 2px rgb(97, 92, 92);
+}
+
+.card:hover {
+    background-color: rgb(183, 142, 223);
+    transform: scale(1.1);
+    box-shadow:  2px 2px 4px 4px rgb(97, 92, 92);
+}
+
+.btn2 {
+    margin: 20px;
+    background-color: rgb(143, 53, 228);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: Calibri;
+    font-size: 14px;
+    color: rgb(3, 3, 114);
+    text-decoration: none;
+    font-size: 12px;
+}
+.btn2 a {
+    background-color: rgb(143, 53, 228);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: Calibri;
+    color: rgb(3, 3, 114);
+    text-decoration: none;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.btn2 a:hover {
+    background-color: rgb(143, 53, 228);
+    color: white;
+    text-decoration: none;
+}
+
+.main2 {
+    height: 450px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section2 {
+    height: 320px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 52%;
+    height: 22%;
+    background-color: rgb(143, 53, 228);
+    border-radius: 15px;
+    padding: 15px;
+    text-indent: 40px;
+    box-shadow:  1px 1px 2px 2px rgb(97, 92, 92);
+}
+
+.item:hover {
+    background-color: rgb(183, 142, 223);
+    transform: scale(1.1);
+    box-shadow:  2px 2px 4px 4px rgb(97, 92, 92);
+}
+
+.footer {
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2, h4, p {
+    font-family: Calibri;
+    color: rgb(3, 3, 114);
+}
+
+.btn-fix {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.btn-fix a {
+    background-color: rgb(143, 53, 228);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: Calibri;
+    font-size: 14px;
+    color: rgb(3, 3, 114);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn-fix a:hover {
+    background-color: rgb(68, 8, 124);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: Calibri;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1 {
+        width: 100%;
+        height: 550px;
+        margin: 10px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1120px;
+        margin: 10px;
+        justify-content: space-evenly;
+    }
+
+    .card-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 910px;
+    }
+
+    .card {
+        width: 60%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 650px;
+        margin: 10px;
+    }
+
+    .section2 {
+        height: 500px;
+        margin: 10px;
+    }
+
+    .item {
+        height: 120px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        margin: 10px;
+        height: 100px;
+    }
+
+    h2 {
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h4,p {
+        font-size: 12px;
+    }
+
+    .menu a {
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    .btn a {
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    .btn2 a {
+        font-size: 8px;
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+
+    .btn-fix a {
+        font-size: 8px;
+        padding: 8px;
+    }
+}
